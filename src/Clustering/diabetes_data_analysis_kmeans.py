@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-df = pd.read_csv(r"C:\Users\Anees Meer\Downloads\Mall_Customers.csv")
+df = pd.read_csv(Mall_Customers.csv")
 print(df.head())
 print(df.shape)
 print(df.info())
