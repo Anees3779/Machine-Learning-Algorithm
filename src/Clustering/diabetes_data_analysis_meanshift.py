@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 from sklearn.preprocessing import StandardScaler
 from sklearn.model_selection import train_test_split
-df = pd.read_csv(r'C:\Users\Anees Meer\diabetes.csv')
+df = pd.read_csv('diabetes.csv')
 print(df.head())
 print(df.shape)
 print(df.info())
