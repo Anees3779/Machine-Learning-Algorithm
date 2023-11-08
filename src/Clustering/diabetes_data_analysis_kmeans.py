@@ -3,13 +3,12 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-df = pd.read_csv("Mall_Customers.csv")
+df = pd.read_csv(r"C:\Users\Anees Meer\Downloads\Mall_Customers.csv")
 print(df.head())
 print(df.shape)
 print(df.info())
 print(df.describe())
 print(df.isnull().sum())
-# Calculating the number of zero-values  in each column
 # Calculating the number of zero-values in each column
 print('rows having null CustomerID value : {0}'.format(len(df.loc[df['CustomerID'] == 0])))
 print('rows having null Age value : {0}'.format(len(df.loc[df['Age'] == 0])))
