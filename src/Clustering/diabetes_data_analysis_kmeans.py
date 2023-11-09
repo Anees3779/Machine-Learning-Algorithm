@@ -32,7 +32,7 @@ for feature in features:
     plt.show()
 # Create a pie chart
 plt.figure(figsize=(6, 6))
-plt.pie(Gender_counts, labels=['Fit', 'Diabetic'], autopct='%1.1f%%', startangle=140)
+plt.pie(Gender_counts, labels=['Male', 'Female'], autopct='%1.1f%%', startangle=140)
 plt.title('Gender Distribution')
 plt.show()
 # Plot the count of each class in the 'Gender' column
