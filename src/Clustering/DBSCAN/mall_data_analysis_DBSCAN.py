@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 from src.Clustering.DBSCAN.DBSCAN import DBSCAN
 import pandas as pd
 
-file_path = r"C:\Users\Anees Meer\Downloads\Mall_Customers.csv"
+file_path = r"Mall_Customers.csv"
 feature_cols = ['Annual Income (k$)', 'Spending Score (1-100)']
 
 # Create an instance of DBSCAN
